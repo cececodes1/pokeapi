@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(135deg, #e081d0 0%, #1563e0 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    color: #ff6347; 
+  }
+  
+.card {
+    margin-top: 20px;
+    background-color: #3fb0bd;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-info, .btn-primary, .btn-secondary, .btn-warning {
+    width: 100%;
+    margin-top: 10px;
+}
